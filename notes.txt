@@ -1,0 +1,19 @@
+S- Single Responsibility Principle
+One class one job ( A class should do only one thing and do it well)
+User -> Holds user data
+UserValidator -> validates
+EmailService-> sends mail
+UserRepo -> Database ops
+
+
+O- Open/ Closed Principle
+
+Open for extension, closed for modification
+
+basically, we should be able to add new features without modifying old code.
+
+Like, Instead of editing a function to add new payment types, you create new subclasses.
+
+
+L - Liskov substitution Principle
+
