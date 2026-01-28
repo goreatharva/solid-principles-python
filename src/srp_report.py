@@ -10,7 +10,7 @@ A class should have only one reason to change.
 - `Report` builds the report content (business rule).
 - `ReportSaver` persists the content (I/O concern).
 """
-
+#Addition to make it unique
 @dataclass
 class Report:
     title: str
